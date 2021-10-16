@@ -1,0 +1,270 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(205,150,150,1) 100%);
+}
+.TitulosPaginasSecundarias{
+    font-size: 2rem;
+    padding: 15px;
+}
+
+h2{
+    color: white;
+}
+ 
+
+/* --------------- HEADER */
+
+.header-banner{
+    background-image: url(img/banner.JPG);
+    background-color: brown;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+.header__navbar--principal{
+    list-style: none;
+    padding: 260px;
+ }
+
+ .header__navbar--principal li{
+    display: inline-block;
+ }
+
+ .header__navbar--principal a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: grey;
+    font-size: 1rem;
+    padding: 1.1rem;
+    background-color: lavender;
+    border-radius: 10px;
+ }
+
+ /* --------------- SECCIONES */
+
+
+ .secciones{
+     font-size: 2rem;
+     text-transform: uppercase;
+     margin: 15px;
+     border-radius: 20px;
+     color: aliceblue;
+     padding: 15px;
+     animation-name: animacionsecciones;
+     animation-duration: 6s;
+     position: relative;
+     animation-direction: normal;
+
+ }
+
+ @keyframes animacionsecciones{   /*animacion texto secciones */
+     0%{
+         color: aliceblue;
+         left: 0px;
+         top: 0px;
+     }
+     25%{
+         color: darksalmon;
+     }
+     50%{
+         color: cornsilk;
+     }
+     75%{
+         color: gainsboro;
+     }
+     100%{
+         color: aliceblue;
+     }
+ }
+
+ .secciones-img{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    padding: 10px;
+    margin: 15px;
+}
+ 
+
+ .fitage{
+     font-size: 30px;
+     color: cornflowerblue;
+ }
+
+ .fitage-transform{  /* aplico transformaciones */
+    width: 150px;
+    height: 150px;
+    transition: height 2s width 3s;
+    transform: scale(2,1);
+    transform: translate(10px, 20px);
+ }
+
+ .fitage-transform:hover{
+     height: 250px;
+     width: 250px;
+}
+
+
+ .zellens{
+    font-size: 30px;
+    color: cornflowerblue;
+ }
+
+ .zellens-transform{
+    width: 150px;
+    height: 150px;
+    transition: height 2s width 3s;
+    transform: scale(2,1);
+    transform: translate(10px, 20px);
+
+ }
+
+.zellens-transform:hover{
+    height: 250px;
+     width: 250px;
+}
+
+ .randers{
+    font-size: 30px;
+    color: cornflowerblue;
+ }
+
+.randers-transform{
+    width: 150px;
+    height: 150px;
+    transition: height 2s width 3s;
+    transform: scale(2,1);
+    transform: translate(10px, 20px);
+
+}
+.randers-transform:hover{
+    height: 250px;
+    width: 250px;
+}
+
+
+ .parrafo-home{
+     font-size: 1.2rem;
+ }
+
+.secciones-home
+{
+    padding: 20px;
+}
+
+ /* --------------- PAGINA CONSEJOS */
+
+ .lugares-logo{
+    width: 150px;
+    height: 150px;
+    transition: height 2s width 3s;
+    transform: scale(2,1);
+    transform: translate(10px, 20px);
+ }
+
+ .lugares-logo:hover{
+    height: 250px;
+    width: 250px;
+ }
+
+.guia-de-Compras{
+    font-size: 15px;
+    color:aliceblue;
+    padding: 15px;
+}
+.titulo_consejos{
+    font-size: 25px;
+    color: aliceblue;
+    padding: 15px;
+    margin: 15px;
+}
+
+.subtitulo-guia-de-compras{
+    font-size: 15px;
+    color:aliceblue;
+    padding: 15px;
+    
+}
+.textoconsejos{
+    font-size: 1rem;
+    padding: 15px;
+    margin: 20px;
+}
+.titulo-consejos{
+    font-size: 2rem;
+    padding: 20px;
+}
+
+
+/* ------------------- BLOG */
+
+.bloque-de-datos-personales{
+    font-size: 1rem;
+    padding: 15px;
+    color: white;
+}
+
+.boton-enviar{
+    border: 2px solid tomato; 
+    border-radius: 0.6rem;
+    cursor: pointer;
+    font-size: medium;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.boton-enviar:hover, .boton-enviar:focus{   /*transformacion boton*/
+    color: white;
+    border-color: lightsalmon;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(154,61,61,1) 73%);
+}
+
+
+
+/* ------------------- COMENTARIOS */
+
+.bloque-comentarios{
+    font-size: 1rem;
+    padding: 15px;
+    color: aliceblue;
+}
+
+
+
+
+/* --------------- FOOTER */
+
+footer{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(170,75,99,1) 73%);
+    color: white;
+    padding: 2rem;
+}
+
+.footer__flex{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer__menu{
+    list-style: none;
+    text-align: center;
+    margin: 15px;
+}
+.footer__menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;  
+    text-align: right; 
+}
+
+.footer__credito{
+    display: flex;
+    justify-content: space-around;
+}
