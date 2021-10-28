@@ -4,16 +4,13 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(205,150,150,1) 100%);
+    background-color: darkgray;
 }
 .TitulosPaginasSecundarias{
     font-size: 2rem;
     padding: 15px;
 }
 
-h2{
-    color: white;
-}
  
 
 /* --------------- HEADER */
@@ -175,19 +172,16 @@ h2{
 
 .guia-de-Compras{
     font-size: 15px;
-    color:aliceblue;
     padding: 15px;
 }
 .titulo_consejos{
     font-size: 25px;
-    color: aliceblue;
     padding: 15px;
     margin: 15px;
 }
 
 .subtitulo-guia-de-compras{
     font-size: 15px;
-    color:aliceblue;
     padding: 15px;
     
 }
@@ -207,7 +201,6 @@ h2{
 .bloque-de-datos-personales{
     font-size: 1rem;
     padding: 15px;
-    color: white;
 }
 
 .boton-enviar{
@@ -232,7 +225,6 @@ h2{
 .bloque-comentarios{
     font-size: 1rem;
     padding: 15px;
-    color: aliceblue;
 }
 
 
