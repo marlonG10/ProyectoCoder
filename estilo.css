@@ -3,15 +3,12 @@
     margin: 0px;
 }
 body{
-    font-family: 'Roboto', sans-serif;
-    background-color: darkgray;
+    font-family: 'Times New Roman', Times, serif;
 }
 .TitulosPaginasSecundarias{
     font-size: 2rem;
     padding: 15px;
 }
-
- 
 
 /* --------------- HEADER */
 
