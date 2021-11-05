@@ -1,0 +1,29 @@
+.animacion_texto{
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 20px;
+    animation-name: animacionsecciones;
+    animation-duration: 6s;
+    position: relative;
+    animation-direction: normal;
+}
+
+@keyframes animacionsecciones{ 
+    0%{
+        color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        color: black;
+    }
+    50%{
+        color: red
+    }
+    75%{
+        color: red;
+    }
+    100%{
+        color: black;
+    }
+}
