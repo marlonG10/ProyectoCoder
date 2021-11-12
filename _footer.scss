@@ -1,0 +1,28 @@
+footer{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(170,75,99,1) 73%);
+    color: white;
+    padding: 2rem;
+}
+
+.footer__flex{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer__menu{
+    list-style: none;
+    text-align: center;
+    margin: 15px;
+}
+.footer__menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;  
+    text-align: right; 
+}
+
+.footer__credito{
+    display: flex;
+    justify-content: space-around;
+}
